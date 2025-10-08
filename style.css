@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+
+.header { 
+    padding: 10px;
+    background-color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.verx {
+    font-size: 35px;
+}
+
+nav > a {
+    font-size: 27px;
+    margin-left: 20px;
+}
+
+.wdyn {
+    display: flex;
+    justify-content: center;
+}
+
+.wdyn__priv {
+    padding: 20px 70px;
+    width: 95%;
+    background-color: #D3D3D3;
+    font-size: 38px;
+    border-radius: 20px;
+}
+
+.fish {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5%;
+}
+
+.fish__img {
+    position: relative;
+    bottom: 160px;
+}
+
+.fish__text {
+    padding: 20px 70px;
+    width: 50%;
+    background-color: #D3D3D3;
+    font-size: 38px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 110px; 
+}
+
+.pogoda {
+    display: flex;
+    justify-content: center; 
+}
+
+.day {
+    padding: 20px 70px;
+    width: 95%;
+    background-color: #D3D3D3;
+    font-size: 38px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 167px; 
+    color: #D3D3D3;
+}
+
+.tomorrow {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.pod {
+    padding: 10px 500px;
+    width: 95%;
+    background-color: #BDBCBC;
+    font-size: 38px;
+    border-radius: 80px;
+    position: relative;
+    bottom: 140px; 
+}
